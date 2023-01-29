@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@400;500;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* reset */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Fira Sans Extra Condensed', 
+}
+
+/* Global styles */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    height: 100vh;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #17295c;
+    padding-bottom: 1.5rem;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-size: 3rem;
+}
+
+
+/* Form */
+
+.container {
+    align-self: center;
+    background-color: #17295c;
+    padding: 4rem;
+    border-radius: 5px;
+}
+
+.wrapper .text-input {
+    display: flex;
+    gap: .75rem;
+}
+
+textarea {
+    height: 10rem;
+    width: 25rem;
+    max-width: 100%;
+    border-radius: 3px;
+    padding: 0.50rem;
+    font-size: 1.25rem;
+    resize: none;
+    border: 3px double #17295c;
+    background-color: #ffffffc3;
+    outline: none;
+    color: #000000;
+}
+
+.custom {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.custom .toggle {
+    color: #bdbdbd;
+    cursor: pointer;
+}
+
+.custom select {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.15rem;
+    color: #bdbdbd;
+}
+
+button {
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    background-color: #40424f;
+    color: #ffffff;
+}
